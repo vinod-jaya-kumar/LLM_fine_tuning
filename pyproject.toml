@@ -1,0 +1,26 @@
+[project]
+name = "llm-fine-tuning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Vinod", email = "vinodjayakumar124@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "bertviz>=1.4.1",
+    "datasets>=5.0.1",
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.2",
+    "pip>=26.2.1",
+    "seaborn>=0.13.2",
+    "transformers>=5.17.0",
+    "umap-learn>=0.5.12",
+]
+
+[project.scripts]
+llm-fine-tuning = "llm_fine_tuning:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
