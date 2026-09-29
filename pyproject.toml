@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "accelerate>=1.15.0",
     "bertviz>=1.4.1",
     "datasets>=5.0.1",
     "ipykernel>=7.3.0",
